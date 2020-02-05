@@ -8,7 +8,9 @@ module.exports = {
     "prettier/standard",
     "plugin:flowtype/recommended"
   ],
-  globals: {},
+  globals: {
+    PACKAGE_NAME: true
+  },
   env: {
     browser: true
   },
